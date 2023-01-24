@@ -1,0 +1,19 @@
+:root {
+    --color-red: red;
+    --color-gray: gray;
+    --color-black: black;
+    --color-cyan: #0A80A5;
+    --color-alice-blue: aliceblue;
+    --color-white: white;
+
+    --bg-black: var(--color-black);
+    --bg-cyan: var(--color-cyan);
+    --bg-alice-blue: var(--color-alice-blue);
+    --bg-alice-blue-hover: var(--color-white);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

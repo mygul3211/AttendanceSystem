@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0;
+
+    background-color: var(--bg-alice-blue);
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo>img {
+    width: 75px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    box-shadow: 0 0 1rem var(--color-white);
+    border-radius: .25rem;
+
+    background-color: var(--bg-cyan);
+    color: var(--color-alice-blue);
+}
+
+.container-title {
+    text-align: center;
+}
+
+.container-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.form-input>label {
+    font-size: larger;
+}
+
+.required-flag {
+    color: var(--color-red);
+    font-size: small;
+}
+
+.form-input>input {
+    font-size: medium;
+    padding: .25rem;
+    background-color: var(--bg-alice-blue);
+    border: none;
+    color: var(--color-cyan);
+    border-radius: .125rem;
+}
+
+.form-input>input:not(input[type="submit"]):focus {
+    outline: 2px solid var(--color-black);
+}
+
+.form-input>input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: var(--bg-alice-blue-hover);
+}
+
+.form-input>input::placeholder {
+    color: var(--color-cyan);
+}
